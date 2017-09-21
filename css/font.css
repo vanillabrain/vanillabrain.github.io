@@ -1,0 +1,54 @@
+@font-face {
+  font-family: 'Open Sans';
+  font-style: normal;
+  font-weight: 300;
+  src: local('Open Sans Light'), local('OpenSans-Light'), url('../fonts/opensans/opensans-light-webfont.woff') format('woff');
+}
+@font-face {
+  font-family: 'Open Sans';
+  font-style: normal;
+  font-weight: 400;
+  src: local('Open Sans'), local('OpenSans'), url('../fonts/opensans/opensans-webfont.woff') format('woff');
+}
+@font-face {
+  font-family: 'Open Sans';
+  font-style: normal;
+  font-weight: 700;
+  src: local('Open Sans Bold'), local('OpenSans-Bold'), url('../fonts/opensans/opensans-bold-webfont.woff') format('woff');
+}
+
+@font-face {
+  font-family: 'Spoqa Han Sans';
+  font-weight: 700;
+  src: local('Spoqa Han Sans Bold'),
+  url('../fonts/spoqahansans/SpoqaHanSansBold.woff2') format('woff2'),
+  url('../fonts/spoqahansans/SpoqaHanSansBold.woff') format('woff'),
+  url('../fonts/spoqahansans/SpoqaHanSansBold.ttf') format('truetype');
+}
+
+@font-face {
+  font-family: 'Spoqa Han Sans';
+  font-weight: 400;
+  src: local('Spoqa Han Sans Regular'),
+  url('../fonts/spoqahansans/SpoqaHanSansRegular.woff2') format('woff2'),
+  url('../fonts/spoqahansans/SpoqaHanSansRegular.woff') format('woff'),
+  url('../fonts/spoqahansans/SpoqaHanSansRegular.ttf') format('truetype');
+}
+
+@font-face {
+  font-family: 'Spoqa Han Sans';
+  font-weight: 300;
+  src: local('Spoqa Han Sans Light'),
+  url('../fonts/spoqahansans/SpoqaHanSansLight.woff2') format('woff2'),
+  url('../fonts/spoqahansans/SpoqaHanSansLight.woff') format('woff'),
+  url('../fonts/spoqahansans/SpoqaHanSansLight.ttf') format('truetype');
+}
+
+@font-face {
+  font-family: 'Spoqa Han Sans';
+  font-weight: 100;
+  src: local('Spoqa Han Sans Thin'),
+  url('../fonts/spoqahansans/SpoqaHanSansThin.woff') format('woff'),
+  url('../fonts/spoqahansans/SpoqaHanSansThin.woff2') format('woff2'),
+  url('../fonts/spoqahansans/SpoqaHanSansThin.ttf') format('truetype');
+}
