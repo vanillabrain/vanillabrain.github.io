@@ -1,14 +1,15 @@
-<!DOCTYPE html>
-<html lang="ko" class=" ">
+<!doctype html>
+<!--[if lt IE 7]>      <html class="no-js lt-ie9 lt-ie8 lt-ie7" lang=""> <![endif]-->
+<!--[if IE 7]>         <html class="no-js lt-ie9 lt-ie8" lang=""> <![endif]-->
+<!--[if IE 8]>         <html class="no-js lt-ie9" lang=""> <![endif]-->
+<!--[if gt IE 8]><!--> <html class="no-js" lang=""> <!--<![endif]-->
 <head>
-    <meta charset="utf-8"/>
-    <title>바닐라토픽 | 취향저격 스마트 뉴스리더</title>
-    <meta content="IE=edge, chrome=1" http-equiv="X-UA-Compatible"/>
-    <meta name="viewport" content="width=device-width, initial-scale=1, maximum-scale=1"/>
-    <meta name="description" name="keywords" content="뉴스, 뉴스리더, 뉴스 공유, 커뮤니티뷰어"/>
-    <meta content="당신을 위한 HOT한 뉴스와 소식! 재미있는 뉴스와 커뮤니티를 한 곳에서!" name="description"/>
+    <meta charset="utf-8">
+    <title>바닐라브레인 - 인공지능으로 복잡한 데이터를 쉽고 재미있게!!</title>
+    <meta name="description" name="keywords" content="뉴스, 뉴스리더, 인공지능, 뉴스공유, 커뮤니티, 커뮤니티리더"/>
+    <meta name="viewport" content="width=device-width, initial-scale=1">
     <meta content="바닐라토픽" property="og:title"/>
-    <meta content="당신을 위한 HOT한 뉴스와 소식! 재미있는 뉴스와 커뮤니티를 한 곳에서!" property="og:description"/>
+    <meta content="흩어져있는 HOT한 뉴스와 소식을 한 앱에서! 이것저것 어플 깔기 싫은 사람 모여라!" property="og:description"/>
     <meta content="http://www.vanillatopic.com/images/og-image.png" property="og:image"/>
     <meta content="http://www.vanillatopic.com/" property="og:url"/>
     <meta content="website" property="og:type"/>
@@ -18,170 +19,287 @@
     <!--<meta content="@vanillatopic" name="twitter:site"/>-->
     <!--<meta content="http://www.vanillatopic.com/" name="twitter:url"/>-->
     <!--<meta content="vanillatopic" name="twitter:title"/>-->
-    <meta content="당신을 위한 HOT한 뉴스와 소식! 재미있는 뉴스와 커뮤니티를 한 곳에서!!" name="twitter:description"/>
+    <meta content="흩어져있는 HOT한 뉴스와 소식을 한 앱에서! 이것저것 어플 깔기 싫은 사람 모여라!" name="twitter:description"/>
     <meta content="http://www.vanillatopic.com/images/logo.png" name="twitter:image"/>
     <meta content="wvf8s9Wt_ut5yXqcTJpBG06rwhqcQ0qkuxLpL3uUrnY" name="google-site-verification"/>
-    <!--<meta content="" name="norton-safeweb-site-verification"/>-->
-
-    <!--<link href='http://spoqa.github.io/spoqa-han-sans/css/SpoqaHanSans-kr.css' rel='stylesheet' type='text/css'>-->
-    <link rel="stylesheet" href="css/bootstrap.css" type="text/css"/>
-    <link rel="stylesheet" href="css/animate.css" type="text/css"/>
-    <link rel="stylesheet" href="css/font-awesome.min.css" type="text/css"/>
-    <link rel="stylesheet" href="css/font.css" type="text/css"/>
-    <link rel="stylesheet" href="css/landing.css" type="text/css"/>
-    <link rel="stylesheet" href="css/app.css" type="text/css"/>
-    <!--[if lt IE 9]>
-    <script src="js/ie/html5shiv.js"></script>
-    <script src="js/ie/respond.min.js"></script>
-    <script src="js/ie/excanvas.js"></script>
-    <![endif]-->
+    <link rel="apple-touch-icon" sizes="180x180" href="apple-icon-180x180.png">
+    <link rel="icon" type="image/png" sizes="192x192" href="android-icon-192x192.png">
+    <link rel="icon" type="image/png" sizes="32x32" href="favicon-32x32.png">
+    <link rel="icon" type="image/png" sizes="96x96" href="favicon-96x96.png">
+    <link rel="icon" type="image/png" sizes="16x16" href="favicon-16x16.png">
+    <link rel="stylesheet" href="css/bootstrap.min.css">
+    <link rel="stylesheet" href="css/flexslider.css">
+    <link rel="stylesheet" href="css/jquery.fancybox.css">
+    <link rel="stylesheet" href="css/main.css">
+    <link rel="stylesheet" href="css/responsive.css">
+    <link rel="stylesheet" href="css/animate.min.css">
+    <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/font-awesome/4.4.0/css/font-awesome.min.css">
+    <link rel="stylesheet" href="https://cdn.jsdelivr.net/bxslider/4.2.12/jquery.bxslider.css">
     <script>
-            (function(i,s,o,g,r,a,m){i['GoogleAnalyticsObject']=r;i[r]=i[r]||function(){
-              (i[r].q=i[r].q||[]).push(arguments)},i[r].l=1*new Date();a=s.createElement(o),
-              m=s.getElementsByTagName(o)[0];a.async=1;a.src=g;m.parentNode.insertBefore(a,m)
-            })(window,document,'script','https://www.google-analytics.com/analytics.js','ga');
+      (function(i,s,o,g,r,a,m){i['GoogleAnalyticsObject']=r;i[r]=i[r]||function(){
+        (i[r].q=i[r].q||[]).push(arguments)},i[r].l=1*new Date();a=s.createElement(o),
+        m=s.getElementsByTagName(o)[0];a.async=1;a.src=g;m.parentNode.insertBefore(a,m)
+      })(window,document,'script','https://www.google-analytics.com/analytics.js','ga');
 
-            ga('create', 'UA-64942971-5', 'auto');
-            ga('require', 'displayfeatures');
-            ga('require', 'linkid', 'linkid.js');
-            ga('send', 'pageview');
+      ga('create', 'UA-64942971-5', 'auto');
+      ga('require', 'displayfeatures');
+      ga('require', 'linkid', 'linkid.js');
+      ga('send', 'pageview');
 
     </script>
 </head>
-<body class="">
-
-<!-- header -->
-<header id="header" class="navbar navbar-fixed-top box-shadow b-light" data-spy="affix"
-        data-offset-top="1">
-    <div class="container">
-        <div class="navbar-header">
-            <a href="#content" data-jump="true" class="navbar-brand"><img src="images/toplogo.png" class=""></a>
-        </div>
-        <!--<a href="#newsletter" data-jump="true" class="navbar-right m-t-sm btn btn-sm btn-dark m-l"><strong>무료 베타 참여</strong></a>-->
-    </div>
-</header>
-<!-- / header -->
-<section id="content">
-    <div class="row" style="background: url('images/img_background.jpg') center center;">
-        <div class="container m-t-lg">
-            <div class="col-md-8 center-main">
-                <div class="text-uc h3 inline">
-                    <div class="pull-left m-r-sm" style="letter-spacing:-1px; margin-top:25px"><span class="text-info">대한민국 1등</span> 스마트 뉴스리더</div>
+<body>
+	<section class="banner" role="banner">
+        <header id="header">
+            <div class="header-content clearfix">
+                <a class="logo" href="#"><img src="images/logo.png" alt=""></a>
+                <nav class="navigation" role="navigation">
+                    <ul class="primary-nav">
+                        <li><a href="#topic">Vanilla Topic</a></li>
+                        <li><a href="#about">About</a></li>
+                        <li><a href="#contact">Contact</a></li>
+                        <!--<li><a href="#blog">Blog</a></li>-->
+                    </ul>
+                </nav>
+                <a href="#" class="nav-toggle">Menu<span></span></a>
+            </div><!-- header content -->
+        </header><!-- header -->
+        <div class="wrapper">
+            <section id="main" class="vanilla">
+                <div class="hbox">
+                    <div class="s4 nago-bold" style="margin-left: auto">사이트마다 앱 설치?</div>
+                    <div class="s4 nago-bold" style="margin-right: auto; padding-left: 5px;">완전 스튜핏 T.T</div>
                 </div>
-                <div class="m-t-sm m-b-xl">
-                    <div class="text-uc h1 inline">
-                        <div class="pull-left m-r-sm" style="letter-spacing:-2px; margin-top:-10px;">당신을 위한 <span class="text-danger"><strong>HOT</strong></span>한 뉴스와 소식</div>
+                <div class="s0 purple" style="padding-top: 6px;">
+                    바닐라토픽
+                </div>
+                <div class="hbox">
+                    <span class="s0">슈퍼그뤠잇</span>
+                    <div class="box_img">
+                        <img src="images/ic_thumb.png" alt=""/>
                     </div>
-                    <div class="h3 m-t-sm text-white">취향저격!! 뉴스와 커뮤니티 블로그 RSS를 구독해보세요</div>
+
                 </div>
-                <img class="img-full m-b-md" src="images/img_thumb.png">
-            </div>
-            <div class="col-md-4 hidden-xs hidden-sm m-t-lg">
-                <img src="images/img_cellphone.png">
-            </div>
-            <div class="col-xs-12 text-center m-t-lg m-b-lg">
-                <a href="https://play.google.com/store/apps/details?id=com.vanillabrain.topic" target="_blank"
-                   class="btn-lg btn bg-primary b-none font-bold">
-                    <img src="images/ic_playstore.png">
-                    Google Play Store
-                </a>
-                <!--<div class="hbox">-->
-                <!--<aside class="col-sm-12 col-md-6">-->
-                <!--<section class="animated fadeInUp text-center">-->
-                <!--<img src="images/main.png" class="img-full">-->
-                <!--</section>-->
-                <!--</aside>-->
-                <!--</div>-->
-            </div>
+                <div class="s5" style="padding-top: 30px">흩어져있는 HOT한 뉴스와 소식을 한 앱에서!<br/>
+                이것저것 어플 깔기 싫은 사람 모여라!<br/>
+                <span class="s5 purple nago-bold">#취존앱 #바닐라뷰 #그뤠잇앱</span>
+                <div class="hbox" style="padding-top: 1em;">
+                    <a href="https://play.google.com/store/apps/details?id=com.vanillabrain.topic" class="playstore" target="_blank"
+                        alt="play store 다운로드 페이지 이동">
+                        <img src="images/ic_playstore.png" alt=""/>
+                        <span class="s5 white" style="padding-left: 18px; letter-spacing: 0;">Google Play Store</span>
+                    </a>
+                    <img src="images/ic_app.png" alt="" class="logo-small"/>
+                </div>
+            </section>
         </div>
-    </div>
-    <div id="about">
+    </section><!-- topic -->
+    <section id="topic" class="topic">
         <div class="container">
-            <div class="m-t-md m-b-lg text-center wrapper">
-                <h3 class="inline info-block-text">
-                    더이상 새로운 소식을 접하기 위해 이리저리 앱을 옮겨 다니지 마세요!<br/>
-                    바닐라토픽은 다양한 매체의 채널이 있으며, 자유롭게 추가하여 구독할 수 있습니다.</h3>
-                <div class="m-t-md m-b-md h1 text-center text-info2 info-block-text"
-                     data-ride="animated" data-animation="fadeInRightBig" data-delay="300">
-                    원하는 채널이 없다구요? <br/>
-                    채널추가 요청을 해 주시면 검토후 빠른시간 안에 업데이트 해 드립니다.
+            <!--<div class="col-md-9" style="padding-top: 135px">-->
+            <div class="col-md-9" style="padding-top: 55px;">
+                <div class="box-cont-text s4" style="letter-spacing: -0.64px; line-height: 36px; letter-spacing: -2px;">
+                    더 이상 새로운 소식을 접하기 위해 이리저리 앱을 옮겨 다니지 마세요! <br/>
+                    바닐라토픽 하나면 모든 뉴스와 커뮤니티를 단 하나의 앱에서 즐길수 있습니다. <br/>
+                    <span class="s4 purpl01" style="line-height: 36px; letter-spacing: -2px;">
+                        원하는 채널이 없다구요?<br/>
+                        채널 추가 요청을 해 주시면 검토후 빠른시간 안에 업데이트 해 드립니다.
+                    </span>
+                </div>
+                <a href="https://play.google.com/store/apps/details?id=com.vanillabrain.topic" class="playstore-topic" target="_blank"
+                   alt="play store 다운로드 페이지 이동">
+                    <img src="images/ic_playstore.png" alt=""/>
+                    <span class="s5 white" style="padding-left: 18px; letter-spacing: 0;">Google Play Store</span>
+                </a>
+            </div>
+            <!--<div class="col-md-3" style="padding-top: 129px;">-->
+            <div class="col-md-3" style="padding-top: 49px; padding-bottom: 30px;">
+                <img src="images/img_vt_logo.png" alt="" class="img-responsive layout_center">
+            </div>
+        </div>
+    </section><!-- features -->
+    <section id="topic01" class="bg_yellow">
+        <div class="container" >
+            <div class="col-md-7" style="padding-top: 30px;">
+                <div class="hbox-topic" style="padding-top: 55px">
+                    <div class="box_text s2 brown nago-bold">
+                        다양한 뉴스매체와 <br/>
+                        커뮤니티를 한 곳에서
+                    </div>
+                    <div class="box_img">
+                        <img src="images/ic_vb.png" alt=""/>
+                    </div>
+                </div>
+                <div class="box-cont-text s4_2 brown01" style="padding-top: 54px">
+                    내가 보고싶은 정보만 쏙쏙 뽑아 추천해주는 <span class="brown nago-bold">어플계의 순살치킨!</span><br/>
+                    취향에 맞는 매체들의 채널을 구성해 보세요.<br/>
+                    TOP채널은 바닐라 토픽의 추천엔진에서 추천된 최신 정보들을<br/>
+                    보여 줍니다.
+                </div>
+
+            </div>
+            <div class="col-md-5" style="padding-top: 30px;">
+                <div class="device">
+                    <div class="content">
+                        <div class="bx-wrapper">
+                            <div class="bx-viewport">
+                                <ul class="bxslider">
+                                    <li><img src="images/img_1_1.png" /></li>
+                                    <li><img src="images/img_1_2.png" /></li>
+                                    <li><img src="images/img_1_3.png" /></li>
+                                    <li><img src="images/img_1_4.png" /></li>
+                                    <li><img src="images/img_1_5.png" /></li>
+                                </ul>
+                            </div>
+                        </div>
+                    </div>
                 </div>
             </div>
-            <div class="row m-t-md m-b-md text-center">
-                <div class="col-sm-4" data-ride="animated" data-animation="fadeInLeft" data-delay="300">
-                    <div class="m-l-xs m-r-xs">
-                        <div class="m-t-none line2">
+            <a href="#topic02" class="next"><img src="images/ic_down01.png" alt="다음 섹션 이동"></a>
+        </div>
+    </section>
+    <section id="topic02" class="bg_white">
+        <div class="container mobile_reverse">
+            <div class="col-md-5 " style="padding-top: 30px;">
+                <div class="device">
+                    <div class="content">
+                        <div class="bx-wrapper">
+                            <div class="bx-viewport">
+                                <ul class="vanilla-view-slider">
+                                    <li><img src="images/img_1_1.png" /></li>
+                                    <li><img src="images/img_1_2.png" /></li>
+                                </ul>
+
+                            </div>
                         </div>
+                        <button id="vanillaViewButton" class="vanilla-view"></button>
                     </div>
-                    <div class="widget m-l-xs m-r-xs">
-                        <h4 class="m-l-sm m-r-sm m-b-md widget-header-txt">다양한 뉴스매체와 커뮤니티</h4>
-                        <p class="h3 m-t-lg m-b-md padder">
-                            <img src="images/ic_community.png"/>
-                        </p>
-                        <div class="widget-body">
-                            <p class="text-box-detail">당신의 취향에 맞는 매체들의 채널을 구성해 보세요.</p>
-                            <p class="text-box-detail">TOP채널에는 바닐라토픽의 추천엔진에서 추천된 최신 정보들을 정리하여 보여 줍니다.</p>
+                </div>
+            </div>
+            <div class="col-md-7" style="padding-top: 30px;">
+                <div class="hbox-topic" style="padding-top: 55px">
+                    <div class="box_text s2 brown nago-bold">오지게 편한 바닐라뷰</div>
+                    <div class="box_img">
+                        <img src="images/ic_vb.png" alt=""/>
+                    </div>
+                </div>
+                <div class="box-cont-text s4_2 brown01" style="padding-top: 56px">
+                    최적의 기사 읽기가 가능한 “바닐라뷰”<br/>
+                    서로 다른 화면구성 때문에 보기힘들었던 기사를 보기<br/>
+                    편한 UI 로 바꿔드립니다.
+                </div>
+                <div class="box-cont-text s4 brown nago-bold" style="padding-top: 20px">
+                    오지는거 인정? 어, 인정!!!
+                </div>
+            </div>
+            <a href="#topic03" class="next"><img src="images/ic_down02.png" alt="다음 섹션 이동"></a>
+        </div>
+    </section>
+    <section id="topic03" class="bg_black">
+        <div class="container">
+            <div class="col-md-7" style="padding-top: 30px;">
+                <div class="hbox-topic" style="padding-top: 55px">
+                    <div class="box_text s2 white01 nago-bold">당신의 취향존중</div>
+                    <div class="box_img">
+                        <img src="images/ic_03.png" alt=""/>
+                    </div>
+                </div>
+                <div class="box-cont-text s4_2 white01" style="padding-top: 51px">
+                    원하는 채널을 선택하여 나만의 모음집을 만들어보세요.<br/>
+                    실시간으로 업데이트 되는 많은 정보들 속에서
+                </div>
+                <div class="box-cont-text s4 white01 nago-bold">
+                    내 취향만 쏙~ 쏙~
+                </div>
+
+            </div>
+            <div class="col-md-5" style="padding-top: 30px;">
+                <div class="device">
+                    <div class="content">
+                        <div class="bx-wrapper">
+                            <div class="bx-viewport">
+                                <ul class="favorite-slider">
+                                    <li><img src="images/img_3_1.png" /></li>
+                                    <li><img src="images/img_3_2.png" /></li>
+                                    <li><img src="images/img_3_3.png" /></li>
+                                    <li><img src="images/img_3_4.png" /></li>
+                                    <li><img src="images/img_3_5.png" /></li>
+                                    <li><img src="images/img_3_6.png" /></li>
+                                    <li><img src="images/img_3_7.png" /></li>
+                                </ul>
+                            </div>
                         </div>
                     </div>
                 </div>
-                <div class="col-sm-4" data-ride="animated" data-animation="fadeInLeft" data-delay="600">
-                    <div class="m-l-xs m-r-xs">
-                        <div class="m-t-none line2">
-                        </div>
-                    </div>
-                    <div class="widget m-l-xs m-r-xs">
-                        <h4 class="m-t-none m-l-md m-r-md m-b-md widget-header-txt">읽기편한 바닐라뷰</h4>
-                        <p class="h3 m-t-lg m-b-md padder">
-                            <img src="images/ic_viewer.png"/>
-                        </p>
-                        <div class="widget-body">
-                            <p class="text-box-detail">최적의 기사 읽기가 가능한 </br>“바닐라뷰”를 제공합니다.</p>
-                            <p class="text-box-detail">이미지, 동영상등을 더욱 보기 편하게 구성하여 보여 드립니다.</p>
-                        </div>
-                    </div>
+            </div>
+            <a href="#about" class="next"><img src="images/ic_down03.png" alt="다음 섹션 이동"></a>
+        </div>
+    </section>
+
+
+    <section id="about" class="bg_about">
+        <div class="container">
+            <div class="col-md-6" style="padding-top: 149px;">
+                <div class="box-cont-text s1 black01 nago-bold" style="line-height: 100%; ">
+                    About<br/>Vanilla Brain?
                 </div>
-                <div class="col-sm-4 padder" data-ride="animated" data-animation="fadeInLeft" data-delay="900">
-                    <div class="m-l-xs m-r-xs">
-                        <div class="m-t-none line2">
-                        </div>
+                <div class="box-cont-text s4_2 black" style="padding-top: 38px">
+                    복잡한 데이터를 쉽고 재미있게 볼 수 있는 서비스를 제공합니다.<br/>
+                    <span class="nago-bold">인공지능 기술을 활용하여 바닐라 아이스크림같이 달콤한 데이터를 보여드립니다.</span>
+                    <br/><br/>
+                    바닐라브레인은 콘텐츠 저작권을 존중합니다.<br/>
+                    콘텐츠를 제작하는 힘은 저작권이 보호되는데 있으며, 최대한 존중하고 수익을 공유합니다.
+                </div>
+
+            </div>
+            <div class="col-md-6 card-block" >
+                <img src="images/img_vb_outline.png" alt="" class="img-responsive layout_center">
+            </div>
+            <a href="#contact" class="next"><img src="images/ic_down04.png" alt="다음 섹션 이동"></a>
+        </div>
+    </section>
+
+    <footer id="contact" class="contact">
+        <div class="contact-top">
+            <div class="container">
+                <div class="hbox" >
+                    <div class="s0 white01 nago-bold" style="margin-left: auto;">
+                        Contact
                     </div>
-                    <div class="widget m-l-xs m-r-xs">
-                        <h4 class="m-t-none m-l-md m-r-md m-b-md widget-header-txt">개인별 맞춤채널</h4>
-                        <p class="h3 m-t-lg m-b-md padder">
-                            <img src="images/ic_mychannel.png"/>
-                        </p>
-                        <div class="widget-body">
-                            <p class="text-box-detail">당신만의 채널 (RSS,게시판)을 구성해 보세요.</p>
-                            <p class="text-box-detail">서비스에서 제공하지 않는 채널도 신청하면 검토 후 채널로 추가해 드립니다.</p>
-                        </div>
+                    <div class="contact-cont-text s5 white01 nago-right" style="margin-right: auto; padding-bottom: 20px">
+                        경기도 고양시 일산구 중앙로 1036 (고양시니어기술창업센터) 4호<br/>
+                        H.P 010.4255.6540     Fax 031.936.7484<br/>
+                        Email hello@vanillabrain.com<br/>
                     </div>
                 </div>
             </div>
         </div>
-    </div>
-</section>
+        <div class="contact-middle">
+            <img src="images/img_map.png" style="width: 100%;" alt="">
+        </div>
+        <div class="contact-bottom">
+            <div class="container ">
+                <div class="hbox" >
+                        <div class="s4_2 white01" style="margin-left: auto;">Copyright © <span class="white nago-bold">VANILLA BRAIN</span></div>
+                        <div class="s4_2 white01" style="margin-right: auto;padding-left: 10px;">All Rights Reserved </div>
+                </div>
 
-<!-- footer -->
-<div class="address text-light text-center" >
-    경기도 고양시 일산구 중앙로 1036 4층 (고양시니어기술창업센터) 4호</br>
-    Mobile: <a href="tel:010-4255-6540">010.4255.6540</a> / Fax: 031.936.7484</br>
-    e-mail: <a href="mailto:dosunyun@vanillabrain.com">dosunyun@vanillabrain.com</a></br>
-</div>
-<div class="footer">
-    <span class="text-light text-center">
-        <p>Copyright © 2017 <span class="text-info"><strong>VanillaBrain</strong></span> All rights reserved.</p></span>
-</div>
-<!-- End footer -->
-<script src="js/jquery.min.js"></script>
-<!-- Bootstrap -->
-<script src="js/bootstrap.js"></script>
-<!-- App -->
-<script src="js/app.js"></script>
-<script src="js/slimscroll/jquery.slimscroll.min.js"></script>
+                <a href="#" class="next"><img src="images/ic_up01.png" alt="다음 섹션 이동"></a>
+            </div>
+        </div>
+    </footer><!-- footer -->
 
-<script src="js/appear/jquery.appear.js"></script>
-<script src="js/scroll/smoothscroll.js"></script>
-<script src="js/landing.js"></script>
-<!--<script src="js/app.plugin.js"></script>-->
+    <script src="https://ajax.googleapis.com/ajax/libs/jquery/1.11.3/jquery.min.js"></script>
+    <script>window.jQuery || document.write('<script src="js/jquery.min.js"><\/script>')</script>
+    <script src="js/bootstrap.min.js"></script>
+    <script src="js/jquery.flexslider-min.js"></script>
+    <script src="js/jquery.fancybox.pack.js"></script>
+    <script src="js/jquery.waypoints.min.js"></script>
+    <script src="js/retina.min.js"></script>
+    <script src="js/modernizr.js"></script>
+    <script src="js/main.js"></script>
+    <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.1.1/jquery.min.js"></script>
+    <script src="https://cdn.jsdelivr.net/bxslider/4.2.12/jquery.bxslider.min.js"></script>
+    
 </body>
 </html>

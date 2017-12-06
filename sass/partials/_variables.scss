@@ -1,0 +1,72 @@
+//Colors
+$white: #fff;
+$black: #000;
+$base-color: #2d3033;
+$font-color: #6c7279;
+$brand-color: #6644A3;
+$accent-color: #2b2e4a;
+$nav-color: #FFFFFF;
+
+//Typography
+$font: "NanumBarunGothic", sans-serif;
+$font-secondary: "Open Sans", sans-serif;
+$font-accent: "Cardo", Georgia, 'Times New Roman', serif;
+
+$light: 300;
+$normal: 400;
+$medium: 500;
+$semibold: 600;
+$bold: 700;
+
+$font-size: 14px;
+$h1-font-size: 65px;
+$h2-font-size: 40px;
+$h3-font-size: 28px;
+$h4-font-size: 22px;
+$h5-font-size: 14px;
+$nav-font-size: 18px;
+
+$line-height: $font-size * 1.6;
+
+// Breakpoints
+$bp-small: 320px;
+$bp-small-2: 480px;
+$bp-small-3: 568px;
+$bp-medium: 640px;
+$bp-medium-2: 768px;
+$bp-large: 1024px;
+
+
+// Misc.
+$misc: (
+        z-index-base:		10000
+);
+
+// Duration.
+$duration: (
+        transition:			0.2s,
+        bg:					1.75s,
+        main:				1s
+);
+
+// Size.
+$size: (
+        border-radius:		4px,
+        border-width:		1px,
+        element-height:		2.75em,
+        element-margin:		1.5em,
+        letter-spacing:		0.2em
+);
+
+// Palette.
+$palette: (
+        bg:					#ffffff,
+        bg-alt:				#e1dfe8,
+        fg:					#414f57,
+        fg-bold:			#313f47,
+        fg-light:			#616f77,
+        border:				#c8cccf,
+        accent1:			#ffa596,
+        accent2:			#00e4ff,
+        highlight:			#ff7496
+);
