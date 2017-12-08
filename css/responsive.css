@@ -77,6 +77,15 @@
   .s5 {
     font-size: 20px; }
 
+  .playstore {
+    display: flex;
+    margin-right: auto; }
+
+  .playstore-topic {
+    display: flex;
+    margin-left: auto;
+    margin-right: auto; }
+
   .hbox-topic {
     display: block; }
     .hbox-topic .box_text {
@@ -106,6 +115,9 @@
   .bg_black {
     padding-top: 0; } }
 @media screen and (max-width: 768px) {
+  .nav-toggle {
+    top: 20px; }
+
   .banner-text {
     padding-top: 30%; }
     .banner-text h1 {
@@ -143,6 +155,23 @@
     color: #fff;
     text-align: center; } }
 @media screen and (max-width: 568px) {
+  #header .logo {
+    float: left;
+    width: 70px; }
+  #header .nav-toggle {
+    top: 12px; }
+
+  #header.fixed {
+    background-color: #302624; }
+    #header.fixed .header-content {
+      border-bottom: 0;
+      padding: 10px 0; }
+    #header.fixed .nav-toggle {
+      top: 10px; }
+
+  .navigation {
+    margin-top: 0.5em; }
+
   .s0 {
     font-size: 60px; }
 
@@ -199,6 +228,8 @@
     display: flex;
     padding-left: 10px;
     margin-right: auto; }
+    .playstore div {
+      line-height: 60px; }
 
   .playstore-topic {
     width: 230px;
@@ -207,6 +238,8 @@
     padding-left: 10px;
     margin-left: auto;
     margin-right: auto; }
+    .playstore-topic div {
+      line-height: 60px; }
 
   .topic-padding-left {
     padding-left: 0; }

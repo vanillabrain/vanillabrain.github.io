@@ -73,9 +73,26 @@ $(document).ready(function() {
     });
 
     $('#vanillaViewButton').click(function(){
-        slider.goToNextSlide();
+        $('#web-image').hide();
         $(this).hide();
         return false;
+    });
+
+    $(window).resize(function(){
+        var windowWidth = $(window).width();
+        var imgSrc = $('#map');
+        if(windowWidth <= 991){
+            imgSrc.attr('src','../images/img_map_mobile.png');
+        }
+        else if(windowWidth > 901){
+            imgSrc.attr('src','../images/img_map.png');
+        }
+    });
+
+    var iscroll;
+
+    $(window).on('load',function() {
+        iscroll = new IScroll('.iscroll', {mouseWheel: true, bounce:false});
     });
 
 });

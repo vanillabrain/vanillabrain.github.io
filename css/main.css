@@ -1,5 +1,4 @@
-@import url(http://fonts.googleapis.com/earlyaccess/nanumgothic.css);
-@import url(http://fonts.googleapis.com/css?family=Noto+Sans);
+@import url(./fonts.css);
 /* ==========================================================================
 Typography
 ========================================================================== */
@@ -63,7 +62,7 @@ a:hover, a:focus {
   transition: background-color, color, 0.3s; }
 
 body {
-  font-family: "NanumBarunGothic", sans-serif;
+  font-family: Nanum Barun Gothic, sans-serif;
   font-weight: 400;
   color: #6c7279; }
 
@@ -85,7 +84,7 @@ ul li {
   padding-left: 0; }
 
 body {
-  font-family: "NanumBarunGothic", sans-serif; }
+  font-family: Nanum Barun Gothic, sans-serif; }
 
 .s0 {
   font-size: 80px;
@@ -93,7 +92,7 @@ body {
   font-weight: 700;
   etter-spacing: -3.65px;
   line-height: 90px;
-  font-family: NotoSansCJKkr-Bold; }
+  font-family: Noto Sans KR, serif; }
 
 .s1 {
   font-size: 70px;
@@ -121,11 +120,8 @@ body {
   letter-spacing: -0.92px; }
 
 .nago-bold {
-  font-family: NanumBarunGothicBold;
+  font-family: Nanum Barun Gothic, sans-serif;
   font-weight: bold; }
-
-.nago-light {
-  font-family: NanumBarunGothicLight; }
 
 .purple {
   color: #A274FF; }
@@ -134,7 +130,7 @@ body {
   color: #261600; }
 
 .brown {
-  font-family: NanumBarunGothicBold;
+  font-family: Nanum Barun Gothic, sans-serif;
   font-weight: bold;
   color: #56342C; }
 
@@ -160,6 +156,7 @@ body {
   position: fixed;
   width: 100%;
   z-index: 999;
+  background-color: rgba(35, 32, 41, 0.16);
   border-bottom: 1px solid rgba(255, 255, 255, 0.15); }
   #header .header-content {
     margin: 0 auto;
@@ -171,7 +168,10 @@ body {
     -webkit-transition: padding 0.3s;
     transition: padding 0.3s; }
   #header .logo {
-    float: left; }
+    float: left;
+    width: 100px; }
+    #header .logo img {
+      width: 100%; }
 
 #header.fixed {
   background-color: #302624; }
@@ -369,10 +369,10 @@ body {
     padding-top: 80px; }
 
 .wrapper {
-  display: flex;
   display: -webkit-flex;
-  display: -ms-flex;
   display: flex;
+  -webkit-flex-direction: column;
+  flex-direction: column;
   -moz-align-items: center;
   -webkit-align-items: center;
   -ms-align-items: center;
@@ -381,10 +381,6 @@ body {
   -webkit-justify-content: space-between;
   -ms-justify-content: space-between;
   justify-content: space-between;
-  -moz-flex-direction: column;
-  -webkit-flex-direction: column;
-  -ms-flex-direction: column;
-  flex-direction: column;
   -moz-perspective: 1000px;
   -webkit-perspective: 1000px;
   -ms-perspective: 1000px;
@@ -418,11 +414,15 @@ body {
   padding-left: 23px;
   display: flex; }
   .playstore img, .playstore-topic img {
+    width: 26px;
+    height: 27px;
     margin-top: auto;
     margin-bottom: auto; }
-  .playstore span, .playstore-topic span {
+  .playstore div, .playstore-topic div {
     margin-top: auto;
-    margin-bottom: auto; }
+    margin-bottom: auto;
+    line-height: 70px;
+    vertical-align: middle; }
 
 .playstore-topic {
   margin-top: 49px;
@@ -510,15 +510,22 @@ body {
   z-index: 102; }
 
 .hbox-topic {
-  display: flex; }
+  display: -webkit-flex;
+  display: flex;
+  -webkit-flex-direction: row;
+  flex-direction: row; }
   .hbox-topic .box_text {
     margin-top: auto;
-    margin-bottom: 0; }
+    margin-bottom: 0;
+    height: 100%; }
   .hbox-topic img {
     margin-left: 20px; }
 
 .hbox {
-  display: flex; }
+  display: -webkit-flex;
+  display: flex;
+  -webkit-flex-direction: row;
+  flex-direction: row; }
 
 .container {
   padding-left: 0;
@@ -553,14 +560,13 @@ body {
 
 .vanilla-view {
   position: absolute;
-  bottom: 200px;
+  bottom: 170px;
   left: 123px;
-  margin-left: -50px;
+  margin-left: -90px;
+  background: url(../images/btn_vt_view.png) no-repeat 0 0;
   z-index: 10;
-  width: 100px;
-  height: 40px;
-  background-color: #2b2e4a;
-  text-indent: -9999px; }
+  width: 181px;
+  height: 55px; }
 
 .topic-padding-left {
   padding-left: 50px; }
@@ -570,3 +576,7 @@ body {
 
 .logo-small {
   margin-right: auto; }
+
+.box-scroll {
+  position: absolute;
+  height: 931px; }

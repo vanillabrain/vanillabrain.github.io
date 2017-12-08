@@ -1,6 +1,5 @@
 // Google Fonts
-@import url(http://fonts.googleapis.com/earlyaccess/nanumgothic.css);
-@import url(http://fonts.googleapis.com/css?family=Noto+Sans);
+@import url(./fonts.css);
 // Imports
 @import "compass";
 @import "partials/variables";
@@ -47,7 +46,7 @@ body {
   font-weight: 700;
   etter-spacing: -3.65px;
   line-height: 90px;
-  font-family: NotoSansCJKkr-Bold;
+  font-family: $font-accent;
 }
 .s1 {
   font-size: 70px;
@@ -81,13 +80,10 @@ body {
 }
 
 .nago-bold {
-  font-family: NanumBarunGothicBold;
+  font-family: $font;
   font-weight: bold;
 }
 
-.nago-light {
-	font-family: NanumBarunGothicLight;
-}
 
 .purple {
   color: #A274FF;
@@ -98,7 +94,7 @@ body {
 }
 
 .brown {
-  font-family: NanumBarunGothicBold;
+  font-family: $font;
   font-weight: bold;
   color: #56342C;
 }
@@ -130,6 +126,9 @@ body {
 	position: fixed;
 	width: 100%;
 	z-index: 999;
+	background: {
+		color: rgba(#232029, .16);
+	}
     border-bottom: 1px solid rgba($white, .15);
 	.header-content {
 		margin: 0 auto;
@@ -140,6 +139,10 @@ body {
 	}
 	.logo {
 		@include float(left);
+		width: 100px;
+		img {
+			width: 100%;
+		}
 	}
 }
 #header.fixed {
@@ -181,7 +184,7 @@ body {
 	position: fixed;
 	right: 5%;
 	text-indent: 100%;
-	top: 32px;
+	top: 24px;
 	white-space: nowrap;
 	width: 44px;
 	z-index: 99999;
@@ -310,10 +313,8 @@ body {
 }
 
 .wrapper {
-  display: flex;
-  display: -webkit-flex;
-  display: -ms-flex;
-  display: flex;
+	@include display-flex;
+	@include flex-direction(column);
   -moz-align-items: center;
   -webkit-align-items: center;
 
@@ -323,10 +324,6 @@ body {
   -webkit-justify-content: space-between;
   -ms-justify-content: space-between;
   justify-content: space-between;
-  -moz-flex-direction: column;
-  -webkit-flex-direction: column;
-  -ms-flex-direction: column;
-  flex-direction: column;
   -moz-perspective: 1000px;
   -webkit-perspective: 1000px;
   -ms-perspective: 1000px;
@@ -364,12 +361,16 @@ body {
 	padding-left: 23px;
 	display: flex;
 	img {
+		width: 26px;
+		height: 27px;
 		margin-top: auto;
 		margin-bottom: auto;
 	}
-	span {
+	div {
 		margin-top: auto;
 		margin-bottom: auto;
+		line-height: 70px;
+		vertical-align: middle;
 	}
 }
 
@@ -495,10 +496,12 @@ body {
 }
 
 .hbox-topic {
-  display: flex;
+	@include display-flex;
+	@include flex-direction(row);
   .box_text {
     margin-top: auto;
     margin-bottom: 0;
+	  height: 100%;
   }
   img {
     margin-left: 20px;
@@ -506,7 +509,8 @@ body {
 }
 
 .hbox {
-  display: flex;
+	@include display-flex;
+	@include flex-direction(row);
 }
 
 .container {
@@ -549,14 +553,13 @@ body {
 
 .vanilla-view {
 	position: absolute;
-	bottom: 200px;
+	bottom: 170px;
 	left: 123px;
-	margin-left: -50px;
+	margin-left: -90px;
+	background: url(../images/btn_vt_view.png) no-repeat 0 0;
 	z-index: 10;
-	width: 100px;
-	height: 40px;
-	background-color: #2b2e4a;
-	text-indent: -9999px;
+	width: 181px;
+	height: 55px;
 }
 
 .topic-padding-left {
@@ -569,4 +572,9 @@ body {
 
 .logo-small {
 	margin-right: auto;
+}
+
+.box-scroll {
+	position: absolute;
+	height: 931px;
 }

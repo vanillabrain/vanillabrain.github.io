@@ -98,6 +98,17 @@
 		font-size : 20px;
 	}
 
+	.playstore {
+		display: flex;
+		margin-right: auto;
+	}
+
+	.playstore-topic{
+		display: flex;
+		margin-left: auto;
+		margin-right: auto;
+	}
+
 	.hbox-topic {
 		display: block;
 
@@ -139,6 +150,12 @@
 }
 
 @media screen and (max-width: $bp-medium-2) {
+
+	.nav-toggle {
+		top: 20px;
+	}
+
+
 	.banner-text {
 		padding-top: 30%;
 		h1 {
@@ -191,6 +208,32 @@
 }
 
 @media screen and (max-width: $bp-small-3) {
+
+	#header {
+		.logo {
+			@include float(left);
+			width: 70px;
+		}
+
+		.nav-toggle {
+			top: 12px;
+		}
+	}
+
+	#header.fixed {
+		background-color: #302624;
+		.header-content {
+			border-bottom: 0;
+			padding: 10px 0;
+		}
+		.nav-toggle {
+			top: 10px;
+		}
+	}
+
+	.navigation {
+		margin-top: 0.5em;
+	}
 
 	.s0 {
 		font-size: 60px;
@@ -276,6 +319,9 @@
 		display: flex;
 		padding-left: 10px;
 		margin-right: auto;
+		div {
+			line-height: 60px;
+		}
 	}
 
 	.playstore-topic{
@@ -285,6 +331,9 @@
 		padding-left: 10px;
 		margin-left: auto;
 		margin-right: auto;
+		div {
+			line-height: 60px;
+		}
 	}
 
 	.topic-padding-left {

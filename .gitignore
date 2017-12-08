@@ -7,3 +7,18 @@
 *.iml
 out
 gen
+
+# VSCode
+/.vscode
+
+# SASS
+/.sass-cache
+
+# dependencies
+/bower_components
+/node_modules
+
+# npm
+package-lock.json
+
+
