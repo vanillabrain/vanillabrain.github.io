@@ -153,7 +153,10 @@
     cursor: default;
     background-color: rgba(0, 0, 0, 0.54);
     color: #fff;
-    text-align: center; } }
+    text-align: center;
+    margin-top: 10px}
+
+}
 @media screen and (max-width: 568px) {
   #header .logo {
     float: left;
@@ -178,6 +181,10 @@
   .s1 {
     font-size: 50px; }
 
+  .s1_1 {
+    font-size: 45px;
+    margin-top:20px;}
+
   .s2 {
     font-size: 40px; }
 
@@ -185,19 +192,45 @@
     font-size: 34px; }
 
   .s4 {
-    font-size: 22px; }
+    font-size: 16px;
+    letter-spacing: normal;}
 
   .s4_2 {
-    font-size: 18px; }
+    font-size: 16px;
+    margin-top: 60px;
+  }
+
+  .s4_3 {
+    font-size: 16px;
+    letter-spacing: -1px;
+    line-height: 24px;
+    margin-top: 10px;
+  }
 
   .s5 {
-    font-size: 16px; }
+    font-size: 18px;
+    letter-spacing: -1px;
+    margin-top: 5px;
+    line-height: 24px;
+    margin-top:20px;
+   }
+
+  .banner {
+    background-image: url(../images/main_visual.png);
+    background-position: center top;
+    background-repeat: no-repeat;
+    -moz-background-size: cover;
+    -o-background-size: cover;
+    -webkit-background-size: cover;
+    background-size: cover;
+    min-height: 520px; }
 
   .bg_pattern, .bg_yellow, .bg_white, .bg_black {
     padding-top: 0; }
 
   .hbox {
-    display: block; }
+    display: block;
+    margin-bottom: 20px}
     .hbox .box_img {
       width: 100%;
       display: flex; }
@@ -271,13 +304,23 @@
 
   .s0 {
     font-size: 50px;
-    line-height: 110%; }
+    line-height: 100%;
+    margin-top: 15px;
+  }
+
+  .s01 {
+    font-size: 32px;
+    letter-spacing: -2px;}
 
   .s1 {
-    font-size: 44px; }
+    font-size: 44px;
+    margin-top: -130px;
+  }
 
   .s2 {
-    font-size: 38px; } }
+    font-size: 38px; }
+
+}
 @media screen and (max-width: 320px) {
   .banner-text {
     padding-top: 55%; }

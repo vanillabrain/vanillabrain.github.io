@@ -63,7 +63,7 @@ a:hover, a:focus {
 
 body {
   font-family: Nanum Barun Gothic, sans-serif;
-  font-weight: 400;
+  font-weight: 300;
   color: #6c7279; }
 
 ul, ol {
@@ -89,14 +89,26 @@ body {
 .s0 {
   font-size: 80px;
   opacity: 1;
-  font-weight: 700;
-  etter-spacing: -3.65px;
-  line-height: 90px;
+  font-weight: 500;
+  letter-spacing: -3.65px;
   font-family: Noto Sans KR, serif; }
+
+.s01 {
+  font-size: 60px;
+  opacity: 1;
+  font-weight: normal;
+  letter-spacing: -5px;
+  font-family: Noto Sans KR; margin-top:-20px;}
+
 
 .s1 {
   font-size: 70px;
   letter-spacing: -1px; }
+
+.s1_1 {
+  font-size: 70px;
+  letter-spacing: -1px;
+  margin-top: 149px}
 
 .s2 {
   font-size: 48px;
@@ -108,16 +120,21 @@ body {
   letter-spacing: -1px; }
 
 .s4 {
-  font-size: 24px;
+  font-size: 22px;
   letter-spacing: -1px; }
 
 .s4_2 {
   font-size: 22px;
-  letter-spacing: -0.92px; }
+  letter-spacing: -1px; }
+
+.s4_3 {
+  font-size: 22px;
+  letter-spacing: -1px; }
+
 
 .s5 {
-  font-size: 20px;
-  letter-spacing: -0.92px; }
+  margin: 30px 0 20px 0;
+  font-size: 20px;}
 
 .nago-bold {
   font-family: Nanum Barun Gothic, sans-serif;
@@ -387,17 +404,18 @@ body {
   perspective: 1000px;
   position: relative;
   min-height: 100%;
-  padding: 11.5em 3em 3em 3em;
+  padding: 7em 2em 2em 2em;
   z-index: 2; }
 
 .vanilla {
   position: relative;
   max-width: 100%;
-  padding: 4.5em 3em 3em 3em;
+  padding: 4.5em 4em 4em 4.5em;
   cursor: default;
   background-color: rgba(0, 0, 0, 0.54);
   color: #fff;
-  text-align: center; }
+  text-align: center;
+  margin-top: 50px;}
 
 .playstore, .playstore-topic {
   position: relative;
