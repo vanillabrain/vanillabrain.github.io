@@ -125,12 +125,23 @@ body {
 
 .s4_2 {
   font-size: 22px;
-  letter-spacing: -1px; }
+  letter-spacing: -1px;
+  margin-top:51px}
 
 .s4_3 {
   font-size: 22px;
   letter-spacing: -1px; }
 
+.s4_4 {
+  font-size: 22px;
+  letter-spacing: -1px;
+  magin:auto 0;
+  padding :20px 10px 0 40px; }
+
+.s4_5 {
+  font-size: 22px;
+  letter-spacing: -1px;
+  margin-top:28px;}
 
 .s5 {
   margin: 30px 0 20px 0;
