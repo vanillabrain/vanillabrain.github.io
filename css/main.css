@@ -197,9 +197,7 @@ body {
     transition: padding 0.3s; }
   #header .logo {
     float: left;
-    width: 100px; }
-    #header .logo img {
-      width: 100%; }
+    width: 182px; }
 
 #header.fixed {
   background-color: #302624; }
@@ -219,7 +217,7 @@ body {
 
 .navigation {
   float: right;
-  margin-top: 1.5em; }
+  margin-top: 1em; }
   .navigation li {
     display: inline-block; }
   .navigation a {
