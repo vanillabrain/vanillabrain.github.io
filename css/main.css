@@ -456,6 +456,30 @@ body {
   margin-left: 0;
   margin-right: 0; }
 
+.vanilla-go {
+  position: relative;
+  width: 270px;
+  height: 70px;
+  margin-left: 0px;
+  margin-right: 20px;
+  margin-top: auto;
+  margin-bottom: auto;
+  background-color: rgba(0, 0, 0, 0.11);
+  text-align: center;
+  border: 1px solid #000000;
+  border-radius: 3px;
+  padding-left: 23px;
+  display: flex; }
+.playstore img, .playstore-topic img {
+  width: 26px;
+  height: 27px;
+  margin-top: auto;
+  margin-bottom: auto; }
+.playstore div, .playstore-topic div {
+  margin-top: auto;
+  margin-bottom: auto;
+  line-height: 70px;
+  vertical-align: middle; }
 /* ==========================================================================
 	#bg
 ========================================================================== */
